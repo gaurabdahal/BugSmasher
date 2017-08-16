@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Bugsmasher">
+
+        <Preference
+            android:title="High Score"
+            android:summary="0"
+            android:key="key_highscore"
+            android:icon="@android:drawable/ic_menu_info_details" />
+
+        <Preference
+            android:title="Share"
+            android:summary="Share Bugsmasher with friends and family"
+            android:selectable="true"
+            android:key="key_share"
+            android:icon="@android:drawable/ic_menu_share" />
+    </PreferenceCategory>
+</PreferenceScreen>
